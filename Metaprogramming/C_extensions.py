@@ -12,7 +12,6 @@ import time
 import fileinput
 
 def update_last_ran_time():
-	#simply gets the file name from the header comment
 	this_file = sys.argv[0]
 	script_last_run_line = 3
 	curr_line = 0
